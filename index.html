@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Rust + Webpack project!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <canvas id='canvas-infected'></canvas>
+        </div>
+        <div class="col">
+          <h1>Controls</h1>
+          <button id='play-pause'></button>
+          <p>Social distaning</p>
+          <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="slider-social-distancing">
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="col">
+          <canvas id='canvas-new_infections'></canvas>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
